@@ -12,4 +12,24 @@
  *
  *= require_tree .
  *= require_self
+ *= require animate
+ *= require bootstrap
+ *= require theme
  */
+
+ .cj-h3{
+ 	text-transform: none !important;
+ }
+
+ .cj-div{
+ 	outline: 0 !important;
+
+ }
+
+ .cj-h1{
+	text-align: left;
+}
+
+div.cj-thumbnail {
+	border: none;
+}
