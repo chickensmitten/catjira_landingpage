@@ -1,14 +1,39 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>CatjiraLandingPage</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
+  <title>CatjiraLandingPage</title>  
 </head>
-<body>
+<body class="fus-red">
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "http://connect.facebook.net/en_US/all.js#xfbml=1&appId=386496834740212";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
 
-<%= yield %>
+  <%= yield %>
+
+  <footer class="fus-section"> 
+    <div class="fus-overlay"></div>
+    <div class="container">
+      <ul class="list-inline">
+        <li><a class="scrollto" href="#about">About</a></li>
+        <li><a class="scrollto" href="#blog">Blog</a></li>
+        <li><a class="scrollto" href="#feature">Features</a></li>
+        <li><a class="scrollto" href="#pricing">Pricing</a></li>
+      </ul>
+      <div class="credit">
+        <a href="#top" class="scrollto" class="footer-brand">CatJira</a>
+        <p>Built by <a href="http://www.rebaem.com" target="_blank">Rebaem Media Pte Ltd</a></p>
+      </div>
+    </div>
+  </footer>
+
 
 </body>
 </html>

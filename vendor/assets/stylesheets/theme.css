@@ -182,7 +182,7 @@ body .jumbotron {
 }
 body .jumbotron .fus-bg {
   position: fixed;
-  background: url("../images/jumbotron.jpg") center center no-repeat;
+  background: url("/assets/coffee_tea.jpg") center center no-repeat;
   background-size: cover;
   top: 0;
   left: 0;
@@ -244,8 +244,6 @@ body .jumbotron .container .fus-pitch a {
   font-weight: bold;
 }
 
-
-
 body .fus-btns {
   text-align: center;
   margin: 20px 0 0;
@@ -279,6 +277,12 @@ body .fus-btns .btn {
  padding: 35px 0; 
  margin-bottom: 35px;
  text-align: center;
+}
+
+.fus-section .opaquing {
+  background: rgba(255, 0, 0, 0.8);
+  padding: 20px;
+  border-radius: 25px;
 }
 
 
@@ -575,7 +579,7 @@ body .fus-nobtn:hover {
 }
 
 .fus-about {
-  background: url("../images/placeholder7.jpg") center center no-repeat;
+  background: url("/assets/placeholder7.jpg") center center no-repeat;
   background-size: cover;
 }
 
@@ -790,11 +794,11 @@ body.fus-black .navbar.fus-navbar-solid {
     position: absolute;
   }
   body #pricing {
-    background: url("../images/jumbotron.jpg") center center no-repeat;
+    background: url("/assets/coffee_tea.jpg") center center no-repeat;
     background-size: cover;
   }
   body footer {
-    background: url("../images/jumbotron.jpg") center center no-repeat;
+    background: url("/assets/coffee_tea.jpg") center center no-repeat;
     background-size: cover;
   }
 }
